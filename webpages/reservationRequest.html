@@ -1,0 +1,101 @@
+<!-- PRABHKANWAR SINGH SABHARWAL N01652796 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation Request</title>
+    <link rel="stylesheet" href="../css/prabhreservation.css">
+</head>
+<body>
+    <form action="" id="form">
+        <fieldset id="form_fieldset">
+            <h1>Reservation Request</h1>
+            <fieldset>
+                <legend>
+                    General Information
+                </legend>
+                <label for="arrival_date">Arrival Date<span>*</span> : </label>
+                <input type="date" name="arrival_date" id="arrival_date">
+                <span id="error_arrival_date"></span>
+                <br>
+                <br>
+                <label for="nights">Nights<span>*</span>: </label>
+                <input type="text" name="nights" id="nights">
+                <span id="error_nights"></span>
+                <br>
+                <br>
+                <label for="adults">Adults: </label>
+                <select name="adults" id="adults">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+                <br>
+                <br>
+                <label for="children">Children: </label>
+                <select name="children" id="children">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+            </fieldset>
+            <br>
+            <br>
+            <fieldset>
+                <legend>
+                    Preferences
+                </legend>
+                <label for="room_type">Room type: </label>
+                <input type="radio" name="room_type" id="room_type_1" checked>Standard
+                <input type="radio" name="room_type" id="room_type_2">Business
+                <input type="radio" name="room_type" id="room_type_3">Suite
+                <br>
+                <br>
+                <label for="bed_type">Bed type: </label>
+                <input type="radio" name="bed_type" id="bed_type_1" checked>King
+                <input type="radio" name="bed_type" id="bed_type_2">Double Double
+                <br>
+                <br>
+                <input type="checkbox" name="smoking" id="smoking">Smoking
+            </fieldset>
+            <br>
+            <br>
+            <fieldset>
+                <legend>
+                    Contact Information
+                </legend>
+                <label for="contact_name">Name<span>*</span>: </label>
+                <input type="text" name="contact_name" id="contact_name" maxlength="50">
+                <span id="error_contact_name"></span>
+                <br>
+                <br>
+                <label for="contact_email">Email<span>*</span>: </label>
+                <input type="text" name="contact_email" id="contact_email" placeholder="abcd@gmail.com" maxlength="70">
+                <span id="error_contact_email"></span>
+                <br>
+                <br>
+                <label for="contact_phone">Phone<span>*</span>: </label>
+                <input type="text" name="contact_phone" id="contact_phone" placeholder="123-456-7890" maxlength="12">
+                <span id="error_contact_phone"></span>
+            </fieldset>
+            <br>
+            <button id="submit_request" type="submit">
+                Submit Request
+            </button>
+            <br>
+            <button id="clear" type="button">
+                Clear
+            </button>
+            <p>&copy; Prabhkanwar Singh Sabharwal</S> / n01652796 / 2024</p>
+            <a href="../index.html">Sales Tax Calculator</a>
+            <a href="changeCalculator.html">Change Calculator</a>
+            <a href="taxCalculator.html">Income Tax Calculator</a>
+        </fieldset>
+    </form>
+    <script src="../js/prabhReservation.js"></script>
+</body>
+</html>

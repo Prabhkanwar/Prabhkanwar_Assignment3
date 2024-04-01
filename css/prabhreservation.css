@@ -1,0 +1,54 @@
+/* Prabhkanwar Singh Sabharwal, student id- n01652796 */
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    font-family: Helvetica, sans-serif;
+}
+
+fieldset{
+    width:600px
+}
+
+span{
+    color: red;
+}
+
+[id^="error"] {
+    margin-left: 5px;
+    display: none;
+    font-size: 13px;
+}
+
+p{
+    font-size: 10px;
+}
+
+label{
+    margin: 5px;
+}
+
+h1 {
+    color: blue;
+}
+
+legend{
+    color: blue;
+    font-weight: bolder;
+}
+
+#form {
+    display: flex;
+    justify-content: center;
+    /* margin-top: 5%; */
+}
+
+#form_fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid #8b3ba3;
+    box-shadow: 5px 5px 5px #8b3ba3;
+}

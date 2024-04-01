@@ -1,0 +1,47 @@
+<!--PRABHKANWAR SINGH SABHARWAL N01652796 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Tax Calculator</title>
+    <link rel="stylesheet" href="css/prabhz.css">
+</head>
+<body>
+    <form action="" id="form">
+        <fieldset id="form_fieldset">
+            <h1>Sales Tax Calculator</h1>
+            <p>Enter Subtotal and Tax Rate and click "Calculate"</p>
+            <div id="form_div">
+                <label for="sub_total">Sub total<span>*</span> : </label>
+                <input type="text" maxlength="7" id="sub_total">
+                <br>
+                <br>
+                <label for="tax_rate">Tax Rate<span>*</span> : </label>
+                <input type="text" maxlength="5" id="tax_rate">
+                <br>
+                <br>
+                <label for="sales_tax">Sales Tax : </label>
+                <input type="text" id="sales_tax" disabled>
+                <br>
+                <br>
+                <label for="total">Total : </label>
+                <input type="text" id="total" disabled>
+                <br>
+                <br>
+                <button id="clear" type="button">
+                    Clear
+                </button>
+                <button id="calculate" type="button">
+                    Calculate
+                </button>
+            </div>
+            <p>&copy; Prabhkanwar Singh Sabharwal / n01652796/ 2024</p>
+            <a href="./webpages/changeCalculator.html">Change Calculator</a>
+            <a href="./webpages/taxCalculator.html">Income Tax Calculator</a>
+            <a href="./webpages/reservationRequest.html">Reservation Request</a>
+        </fieldset>
+    </form>
+    <script src="js/prabhscript.js"></script>
+</body>
+</html>
